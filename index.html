@@ -6,14 +6,17 @@
   <link rel="stylesheet" href="style.css">
   <title>Chatbot</title>
 </head>
-<body>
-    <h1>Support Bot</h1>
-    <div class="chat-container">
-        <div class="chat" id="chat-box"></div>
-        <input type="text" id="user-input" placeholder="Skriv en melding">
-        <button onclick="sendMessage()">Send</button>
-    </div>
 
-  <script src="script.js"></script>
+<body>
+  <h1>Support Bot</h1>
+  <div class="chat-container">
+      <div class="chat" id="chat-box"></div>
+      <input type="text" id="user-input" placeholder="Skriv en melding">
+      <button onclick="Send_Message(true, '')">Send</button>
+  </div>
+
+  <script src="ChatHandler.js"></script>
+  <script src="bot.js"></script>
 </body>
+
 </html>
