@@ -33,13 +33,37 @@ body {
 }
   
 input {
-    width: calc(100% - 20px);
+    width: calc(100%);
     padding: 10px;
     margin-bottom: 10px;
     border: 1px solid #ccc;
     border-radius: 4px;
     box-sizing: border-box;
 }
+
+.bot-message {
+    background-color: #e0e0e0;
+    color: #333;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    max-width: 70%;
+    word-wrap: break-word;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.user-message {
+    background-color: #00a606;
+    color: #fff;
+    margin: 10px 0 10px auto;
+    padding: 10px;
+    border-radius: 10px;
+    max-width: 70%;
+    word-wrap: break-word;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+
 
 /* Buttons */
 
