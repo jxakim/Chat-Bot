@@ -9,7 +9,11 @@ body {
     justify-content: center;
     flex-direction: column;
     height: 100vh;
-    background-color: #f4f4f4;
+    background-image: url(background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow-y: hidden;
+    overflow-x: hidden;
 }
 
 /* Chat Styling */
@@ -23,6 +27,7 @@ body {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     border-radius: 8px;
     overflow: hidden;
+    background-color: #063543;
 }
   
 .chat {
@@ -70,7 +75,7 @@ input {
 button {
     width: 100%;
     padding: 10px;
-    background-color: #4caf50;
+    background-color: #00a606;
     color: #fff;
     border: none;
     border-radius: 4px;
