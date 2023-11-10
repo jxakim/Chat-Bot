@@ -1,4 +1,4 @@
-Send_Message(false, "Hei! Hva kan jeg hjelpe deg med?");
+setTimeout('Send_Message(false, "Hei! Hva kan jeg hjelpe deg med?");', 500);
 
 // Message sending
 
