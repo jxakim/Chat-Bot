@@ -13,7 +13,7 @@ function Send_Options(name, human) {
         newOption.classList.add("option-button");
 
         newOption.style.padding = "0.5em 1em";
-        newOption.style.fontSize = "14px";
+        newOption.style.fontSize = "12px";
         newOption.style.width = "auto";
         newOption.style.minWidth = "10%";
         newOption.style.overflow = "hidden";

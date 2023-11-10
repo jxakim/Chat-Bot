@@ -9,7 +9,7 @@ body {
     justify-content: center;
     flex-direction: column;
     height: 100vh;
-    background-image: url(background.png);
+    background-image: url(images/background.png);
     background-repeat: no-repeat;
     background-size: cover;
     overflow-y: hidden;
@@ -29,6 +29,7 @@ body {
     overflow: hidden;
     background-color: #063543;
 }
+
   
 .chat {
     height: 400px;
@@ -60,7 +61,7 @@ input {
 .user-message {
     background-color: #00a606;
     color: #fff;
-    margin: 10px 0 10px auto;
+    margin: 20px 0 10px auto;
     padding: 10px;
     border-radius: 10px;
     max-width: 70%;
