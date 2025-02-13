@@ -1,2 +1,2 @@
 # Chat-Bot
-En chat-bot jeg vil lage for gøy. 
+This is not worked further on. Might be later
